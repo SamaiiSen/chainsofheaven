@@ -50,6 +50,28 @@ ul {
 	justify-content: center;
 }
 
+.angelsbanner {
+    cursor: pointer;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 280px;
+    display: flex;
+}
+
+.name-tag {
+    padding-right: var(--spacing-3);
+    padding-left: var(--spacing-3);
+    border: 4px solid var(--vshojo-pink);
+    background-color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top: -2em;
+}
+
 main {
 	max-width: 1280px;
 	margin-left: auto;
