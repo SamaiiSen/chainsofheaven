@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Description" content="This site brings exiting news about vr and the virtual world we live in">
+    <title>Chains of heaven</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<body>
+		<nav>
+			<div class="nav-inner">
+				<div class="nav-logo">
+					<a href="Index.html"><img src="images/Chains_Of_Heaven_4x.png" alt="chains_of_heaven" style="height:130px"></a>
+				</div>
+				<div class="nav-center">
+					<div class="nav-links-row nav-links poppins-light">
+						<ul>
+							<li><a href="Index.html" onclick="dissolveToNextPage('index.html')">Home</a></li>
+							<li><a href="javascript:void(0)" onclick="dissolveToNextPage('about.html')">About</a></li>
+							<li><a href="javascript:void(0)" onclick="dissolveToNextPage('contact.html')">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav-store">
+					<div class="store">
+						<img src="images/external-link.png" alt="" style="height: 20px; width: 20px; margin-right: 5px;">
+						<a href="">STORE</a>
+					</div>
+				</div>
+				<button class="burger" aria-label="Open menu" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</nav>
+	<div class="fade-in">
+		<img src="images/front_banner.webp" alt="front_banner" style="width: 100%; height: auto; margin-top: 170px;">
+	<main>
+		<div class="header">
+			<div class="line"></div>
+			<div class="header-center"><h2>About us</h2></div>
+			<div class="line"></div>
+		</div>
+		<p class="poppins-light" style="text-align: center; color: white; font-size: 18px; margin-top: 20px;">
+			Angels are celestial beings that are often depicted as messengers of God or as guardians of humans. They are commonly associated with light, purity, and divine will. In various religious texts, angels are described as having wings and a radiant appearance, symbolizing their heavenly nature.
+		
+		<div class="header">
+			<div class="line"></div>
+			<div class="header-center"><h2>angels</h2></div>
+			<div class="line"></div>
+		</div>
+		<p class="poppins-light" style="text-align: center; color: white; font-size: 18px; margin-top: 20px;">
+			Angels are celestial beings that are often depicted as messengers of God or as guardians of humans. They are commonly associated with light, purity, and divine will. In various religious texts, angels are described as having wings and a radiant appearance, symbolizing their heavenly nature.
+	</main>
+</body>
+<script>
+function toggleMenu() {
+  document.querySelector('.nav-links-row').classList.toggle('show');
+  document.querySelector('.burger').classList.toggle('open');
+}
+</script>
+</html>
