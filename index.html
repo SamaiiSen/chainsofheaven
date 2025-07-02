@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
     <meta charset="UTF-8" />
-    <meta name="Description" content="This site brings exiting news about vr and the virtual world we live in">
+    <meta name="Description" content="Chains of heaven is a vtuber rock duo with a mission from the stars. Their mission? To ignite the world with positivity, kindness, and a whole lot of soul-shaking music.">
     <title>Chains of Heaven</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="images/Chains_Of_Heaven_4x.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -27,10 +29,10 @@
 					</div>
 				</div>
 				<div class="nav-store">
-					<div class="store">
+					<a href=""><div class="store">
 						<img src="images/external-link.png" alt="" style="height: 20px; width: 20px; margin-right: 5px;">
-						<a href="">STORE</a>
-					</div>
+						STORE
+					</div></a>
 				</div>
 				<button class="burger" aria-label="Open menu" onclick="toggleMenu()">
 					<span></span>
@@ -39,31 +41,50 @@
 				</button>
 			</div>
 		</nav>
+
 	<div class="fade-in">
+
 		<img src="images/deliverables_banner.png" alt="front_banner" style="width: 100%; height: auto; margin-top: 170px;">
-	<main>
-		<div class="header">
+	<div class="header">
 			<div class="line"></div>
-			<div class="header-center"><h2>About us</h2></div>
+			<div class="header-center"><h2 class="poppins-bold">About us</h2></div>
 			<div class="line"></div>
-		</div>
-		<p class="poppins-light" style="text-align: center; color: white; font-size: 18px; margin-top: 20px;">
-			Angels are celestial beings that are often depicted as messengers of God or as guardians of humans. They are commonly associated with light, purity, and divine will. In various religious texts, angels are described as having wings and a radiant appearance, symbolizing their heavenly nature.
-		
-		<div class="header">
-			<div class="line"></div>
-			<div class="header-center"><h2>Angels</h2></div>
-			<div class="line"></div>
-		</div>
-		<div class="angels">
-			<div>
+	</div>
+		<div class="ptext">
+		<p class="poppins-light">
+			A celestial rock duo with a mission from the stars.
+			Their mission? To ignite the world with positivity, kindness, and a whole lot of soul-shaking music.		
+		</p>
+	</div>
+	<div class="header">
+		<div class="line"></div>
+		<div class="header-center"><h2 class="poppins-bold">Angels</h2></div>
+		<div class="line"></div>
+	</div>
 
+	<div class="angels">
+    <a href="">
+		<div class="card">
+			<div class="card-img img-hover-zoom--colorize img-hover-zoom" style="background-color: rgb(75, 41, 104);">
+  			<img src="images/eune_pfp.png" alt="Kson" class="avatar">
 			</div>
-			<div>
-
-			</div>
+  			<div class="name-tag poppins-bold">Eune Angelic</div>
 		</div>
-	</main>
+	</a>
+	<a href="ane.html">
+		<div class="card">
+			<div class="card-img img-hover-zoom--colorize img-hover-zoom" style="background-color: aquamarine;">
+  			<img src="images/ane_pfp.png" alt="Kson" class="avatar">
+			</div>
+  			<div class="name-tag poppins-bold">Ane Angelic</div>
+		</div>
+	</a>
+	</div>
+
+	<div class="footer">
+
+	</div>
+
 </body>
 <script>
 function toggleMenu() {
