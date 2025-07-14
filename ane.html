@@ -14,41 +14,112 @@
 
 
 <body>
-	<nav>
-		<div class="nav-inner">
-			<div class="nav-logo">
-					<a href="Index.html"><img src="images/Chains_Of_Heaven_4x.png" alt="chains_of_heaven" style="height:130px"></a>
+<nav>
+	<div class="nav-inner">
+		<div class="nav-logo">
+			<a href="index.html"><img src="images/Chains_Of_Heaven_4x.png" alt="chains_of_heaven" style="height:130px"></a>
+		</div>
+		<div class="nav-center">
+			<div class="nav-links-row nav-links poppins-light">
+				<ul>
+					<li><a href="index.html" onclick="dissolveToNextPage('index.html')"><h3>Home</h3></a></li>
+					<li><a href="javascript:void(0)" onclick="dissolveToNextPage('about.html')"><h3>About</h3></a></li>
+					<li><a href="contact.html" onclick="dissolveToNextPage('contact.html')"><h3>Contact</h3></a></li>
+				</ul>
 			</div>
-			<div class="nav-center">
-				<div class="nav-links-row nav-links poppins-light">
-					<ul>
-						<li><a href="Index.html" onclick="dissolveToNextPage('index.html')">Home</a></li>
-						<li><a href="javascript:void(0)" onclick="dissolveToNextPage('about.html')">About</a></li>
-						<li><a href="javascript:void(0)" onclick="dissolveToNextPage('contact.html')">Contact</a></li>
-					</ul>
+		</div>
+		<div class="nav-store">
+			<a href="https://advanced.gg/"><div class="botton">
+			<img src="images/external-link.png" alt="" style="height: 30px; width: auto; margin-right: 10px;">
+			<h3 class="poppins-bold">STORE</h3>
+			</div>
+		</a></div>
+		<button class="burger" aria-label="Open menu" onclick="toggleMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</div>
+</nav>
+
+<div class="fade-in">
+
+<div class="talent-banner">
+	<div class="socials">
+		<a class="social" href="">
+			<div class="toggle-container">
+				<div class="toggle">
+					<div class="toggle-text">
+					<img class="icon" src="images/icons/twitch.svg" alt="twitch">
+					<h5>250k</h5>
+				</div>
+				</div>
+					<div class="circle"></div>
+			</div>
+		</a>
+		<a class="social" href="">
+			<div class="toggle-container">
+				<div class="toggle">
+					<div class="toggle-text">
+						<img class="icon" src="images/icons/twitter.svg" alt="twitter">
+						<h5>250k</h5>
+					</div>
+				</div>
+					<div class="circle"></div>
+			</div>
+		</a>
+	<a class="social" href="">
+		<div class="toggle-container">
+			<div class="toggle">
+				<div class="toggle-text">
+					<img class="icon" src="images/icons/tik-tok.svg" alt="tiktok">
+					<h5>250k</h5>
 				</div>
 			</div>
-			<div class="nav-store">
-					<a href=""><div class="store">
-					<img src="images/external-link.png" alt="" style="height: 20px; width: 20px; margin-right: 5px;">
-					STORE
-				</div></a>
-			</div>
-			<button class="burger" aria-label="Open menu" onclick="toggleMenu()">
-					<span></span>
-					<span></span>
-					<span></span>
-			</button>
-		</div>
-	</nav>
-
-	<div class="fade-in">
-
-
-
-	<div class="footer">
-
+			<div class="circle"></div>
 	</div>
+	</a>
+	</div>
+	<div class="talent-images">
+		<img src="images/ane_angelic_fullbody.png" alt="" style="height: auto; width: auto;">
+	</div>
+
+	<div class="talent-info">
+			<h1 class="poppins-bold talenttext">Ane Angelic</h1>
+		<div class="infotext"><p class="poppins-light">Ane Angelic is a celestial rock duo with a mission from the stars. Their mission? To ignite the world with positivity, kindness, and a whole lot of soul-shaking music.</p><br>
+			<p class="poppins-light">With a voice that can melt hearts and a guitar that can make the heavens sing, Ane Angelic is here to spread joy and love through their music. Join them on their journey to make the world a better place, one song at a time.</p>
+		</div>
+	</div>
+</div>
+
+	<div class="header">
+		<div class="line"></div>
+		<div class="header-center"><h2 class="poppins-bold">Arts</h2></div>
+		<div class="line"></div>
+	</div>
+
+	<div class="showcase">
+		<img src="images/ane_ref.png" alt="">
+		<img src="images/ane_pfp.png" alt="">
+	</div>
+
+	<div class="header">
+		<div class="line"></div>
+		<div class="header-center"><h2 class="poppins-bold">Videos</h2></div>
+		<div class="line"></div>
+	</div>
+</div>
+		<div class="footer">
+		<div class="footer-inner">
+		<img src="images/Chains_Of_Heaven_4x.png" alt="logo" style="height: 230px;">
+		<div><p class="poppins-light"><h4>Wanna work together?</h4></p><br>
+			<a href="contact.html"><div class="botton"><h3>Contact us</h3></div></a>
+		</div>
+		<p class="poppins-light"><h4>© 2023 Chains of Heaven <br> All rights reserved.</h4></p>
+		</div>
+		</div>
+</div>
+
 </body>
 <script>
 function toggleMenu() {
