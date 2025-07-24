@@ -134,7 +134,7 @@ h4 {
 }
 
 .line {
-  width: 600px;
+  width: 900px;
   height: 4px;
   background-color: white;
   margin-top: 20px;
@@ -197,7 +197,7 @@ h4 {
   display: flex;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -365,6 +365,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 0em 1em 1em 1em;
+    gap: 10px;
   }
   .angels {
     display: flex;
@@ -392,7 +393,7 @@ nav {
     display: inline-block;
     text-align: center;
     gap: 20px;
-    border: 5px solid #ff1faf;
+    border: 5px solid #F34088;
     border-radius: 30px;
   }
   .avatar {
@@ -412,7 +413,7 @@ nav {
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 999px;
-    border: 5px solid #ff1faf;
+    border: 5px solid #F34088;
     font-family: sans-serif;
   }
   .footer-inner {
@@ -478,12 +479,13 @@ nav {
     margin-left: auto;
     margin-right: auto;
   }
-  .header {
+  .header { 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 3em;
+    gap: 10px;
   }
   .angels {
     display: flex;
@@ -511,7 +513,7 @@ nav {
     display: inline-block;
     text-align: center;
     gap: 20px;
-    border: 5px solid #ff1faf;
+    border: 5px solid #F34088;
     border-radius: 30px;
   }
   .avatar {
@@ -530,7 +532,7 @@ nav {
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 999px;
-    border: 5px solid #ff1faf;
+    border: 5px solid #F34088;
     font-family: sans-serif;
     
   }
@@ -709,6 +711,15 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+  .contact-container {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px;
+    margin-bottom: 400px;
+  }
 }
 
 @media (min-width: 1051px) {
@@ -829,6 +840,15 @@ h5 {
   align-items:start;
   margin-top: 40px;
 }
+  .contact-container {
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 260px;
+    margin-bottom: 400px;
+  }
 }
 
 
@@ -881,8 +901,9 @@ h5 {
 
 .infotext {
   color: white;
-  font-size: 18pt;
+  font-size: 24pt;
   margin-top: 40px;
+  line-height: 44pt;
 }
 
   .showcase img {
@@ -893,16 +914,6 @@ h5 {
     display: block;
     object-fit: contain;
     margin: 10px;
-  }
-
-  .contact-container {
-    gap: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 260px;
-    margin-bottom: 400px;
   }
 
   .contact-container img {
@@ -922,4 +933,23 @@ h5 {
   color: white;
   font-size: 36pt;
   margin-top: 10px;
+}
+
+.musician-role {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24pt;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.eune-media {
+  background-color: #ffffff !important;
+  border: 8px solid #f15b8d;
+}
+
+.eune-circle {
+  background-color: #f15b8d !important;
+  border: 8px solid #f15b8d;
 }
