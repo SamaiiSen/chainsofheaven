@@ -953,3 +953,13 @@ h5 {
   background-color: #f15b8d !important;
   border: 8px solid #f15b8d;
 }
+
+.comming-soon {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 80pt;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
