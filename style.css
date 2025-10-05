@@ -27,6 +27,14 @@ body.fade-out .no-fade {
   display: block;
 }
 
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  color: white;
+  margin-top: 20px;
+}
+
 #fade-overlay {
   position: fixed;
   top: 0; left: 0;
@@ -39,7 +47,8 @@ body.fade-out .no-fade {
 }
 
 body {
-  background-color: #242123;
+  background-image: url(images/background.png);
+  background-size: 250px;
 }
 
 ul {
@@ -720,6 +729,31 @@ h5 {
     margin-top: 260px;
     margin-bottom: 400px;
   }
+
+    .credits {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 150px;
+    }
+    .credit-panels {
+    margin: 0px 15%;
+    margin-top: 260px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+  .credits img {
+    height: auto;
+    border-radius: 25px;
+    border-color: #F34088;
+    border-style: solid;
+    border-width: 16px;
+  } 
+
 }
 
 @media (min-width: 1051px) {
@@ -849,6 +883,19 @@ h5 {
     margin-top: 260px;
     margin-bottom: 400px;
   }
+    .credits {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 100px;
+  }
+  .credit-panels {
+    margin: 0px 15%;
+    margin-top: 260px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -920,6 +967,16 @@ h5 {
     width: 500px;
     height: auto;
   } 
+
+  .credits img {
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    border-color: #F34088;
+    border-style: solid;
+    border-width: 4px;
+  } 
+
   .contact-name {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -962,4 +1019,6 @@ h5 {
   text-align: center;
   margin-top: 20px;
   padding: 20px;
+}
+
 }
