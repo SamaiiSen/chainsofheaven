@@ -198,7 +198,7 @@ h4 {
   border-top: 5px #F34088 solid;
   padding-top:40px ;
   margin-top: 50px;
-  height: 550px;
+  height: 650px;
   width: 100%;
 }
 
@@ -725,9 +725,15 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    margin-left: 20%;
     margin-top: 260px;
     margin-bottom: 400px;
+  }
+
+  .contact-container img {
+    width: 70%;
+    height: auto;
   }
 
     .credits {
