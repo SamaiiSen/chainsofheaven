@@ -654,7 +654,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
-  color: #524164;
+  color: #f34088;
   font-weight: bold;
   z-index: 3;
 }
@@ -664,7 +664,7 @@ nav {
   width: 740px;
   height: 240px;
   background-color: white;
-  border: 20px solid #524164;
+  border: 20px solid #f34088;
   border-radius: 170px;
   transition: all 0.3s ease;
   z-index: 2;
@@ -675,8 +675,8 @@ nav {
   transform: translateX(5px) translateY(5px);
   width: 740px;
   height: 240px;
-  background-color: #524164;
-  border: 20px solid #524164;
+  background-color: #f34088;
+  border: 20px solid #f34088;
   border-radius: 170px;
   transition: transform 0.3s ease;
   z-index: 1;
@@ -711,15 +711,37 @@ h5 {
   text-align: center;
 }
 .showcase {
-  max-width: 90%;
-  margin: 0px auto;
-  display: flex;
-  column-count: 2;
-  column-gap: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+column-gap: 20px;
+justify-content: center !important;
+align-items: center !important;
+align-content: center !important;
+margin-top: 40px;
 }
+.talenttext {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 80pt;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+}
+    .musician-role {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 24pt;
+        color: white;
+        text-align: left;
+        margin-top: -10px;
+    }
+    .comming-soon {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 80pt;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px; }
+
   .contact-container {
     gap: 40px;
     display: flex;
@@ -748,7 +770,7 @@ h5 {
     .credit-panels {
     margin: 0px 15%;
     margin-top: 260px;
-    text-align: left;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -760,6 +782,32 @@ h5 {
     border-width: 16px;
   } 
 
+  .talent-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Optional: set a max-width if you want to limit the container */
+}
+
+.talent-images img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: contain; /* or 'cover' if you want it to fill the box */
+}
+
+.phone {
+max-width: 90%;
+max-height: auto;
+align-items: center;
+
+}
+
+.phone-layout {
+align-items: center;
+}
 }
 
 @media (min-width: 1051px) {
@@ -822,7 +870,7 @@ h5 {
   width: 315px;
   height: 125px;
   background-color: white;
-  border: 8px solid #524164;
+  border: 8px solid #f34088;
   border-radius: 99px;
   transition: all 0.3s ease;
   z-index: 2;
@@ -833,8 +881,8 @@ h5 {
   transform: translateX(5px) translateY(5px);
   width: 315px;
   height: 125px;
-  background-color: #524164;
-  border: 8px solid #524164;
+  background-color: #f34088;
+  border: 8px solid #f34088;
   border-radius: 99px;
   transition: transform 0.3s ease;
   z-index: 1;
@@ -960,10 +1008,8 @@ h5 {
 }
 
   .showcase img {
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
     display: block;
     object-fit: contain;
     margin: 10px;
